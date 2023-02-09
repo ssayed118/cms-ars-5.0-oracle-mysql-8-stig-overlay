@@ -12,3 +12,14 @@ include_controls 'oracle-mysql-8-stig-baseline' do
         end
     end
 end
+
+## NIST tags updated due to changes between NIST SP 800-53 rev 4 and rev 5 (https://csrc.nist.gov/csrc/media/Publications/sp/800-53/rev-5/final/documents/sp800-53r4-to-r5-comparison-workbook.xlsx)
+
+## PL-9 incorporates withdrawn control AU-3 (2)
+control 'SV-235171' do
+    tag nist: ["PL-9"]
+end
+
+control 'SV-235172' do
+    tag nist: ["PL-9"]
+end
