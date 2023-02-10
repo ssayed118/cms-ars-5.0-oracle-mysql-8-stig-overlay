@@ -1,7 +1,8 @@
 name: cms-ars-5.0-oracle-mysql-8-stig-overlay
 title: cms-ars-5.0-oracle-mysql-8-stig-overlay
-maintainer: MITRE SAF Team
-copyright: MITRE, 2022
+maintainer: CMS SAF Team
+copyright: 
+copyright_email: saf@cms.hhs.gov
 license: Apache-2.0
 summary: CMS ARS 5.0 Overlay InSpec Validation Profile for Oracle MySQL 8.0 STIG
 version: 1.1.0
