@@ -18,6 +18,11 @@ inputs:
     type: String
     value: <%= ENV['BASELINE'].nil? ? 'Moderate (Default)' : ENV['BASELINE'] %> 
 
+  - name: org_name
+    desc: "Name of the organization running this profile"
+    type: String
+    value: "CMS"
+
   - name: overlay_controls
     description: 'List of inapplicable controls/requirements in ARS 5.0 based on the system categorization'
     type: Array
